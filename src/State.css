@@ -1,0 +1,22 @@
+tr {
+  
+
+}
+.increase {
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+    color: #ff073a;
+}
+.confirmes {
+    color: #7d8891;
+}
+.actives {
+    color: #007bff;
+}
+.recovereds {
+    color: #28a745;
+}
+.death {
+    color: #ff073a;
+}

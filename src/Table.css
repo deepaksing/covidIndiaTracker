@@ -1,0 +1,17 @@
+.container {
+    
+    height: 10px;
+}
+table {
+    font-weight: 500;
+}
+
+  table, th, td {
+    border: 3px solid #d5cedd;
+  }
+
+  td:hover {
+      background-color: #d3c8e2;
+  }
+
+  

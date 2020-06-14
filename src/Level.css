@@ -1,0 +1,70 @@
+
+.Level {  
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center;
+  text-align: center;
+}
+.confirmed,.recovered,.deaths,.active {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+.head {
+    font-size: 30px;
+    font-weight: 800;
+}
+.datas {
+    font-size: 25px;
+}
+.confirmed {
+    color: #7d8891;
+}
+.active {
+    color: #007bff;
+}
+.recovered {
+    color: #28a745;
+}
+.deaths {
+    color: #ff073a;
+}
+
+
+@media screen and (max-width: 952px) {
+    .Level {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .head {
+        font-size: 25px;
+    }
+    .datas {
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 652px) {
+    .Level {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    .head {
+        font-size: 20px;
+    }
+    .datas {
+        font-size: 15px;
+    }
+}
